@@ -105,6 +105,7 @@
 .posted-tweet-footer{
   height: 20%;
   padding-left: 5px;
+  padding-right: 10px;
   padding-top: 5px;
 
 }
@@ -122,6 +123,7 @@
 .fa {
   visibility: hidden;
   float:right;
+  margin: 1px;
 }
 /*will have article.posted-tweet-container:hover .fa */
 .posted-tweet:hover .fa {
