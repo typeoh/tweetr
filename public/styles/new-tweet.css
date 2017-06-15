@@ -1,0 +1,129 @@
+.container{
+  height: 10000px;
+}
+.compose-button {
+  border-radius: 20px;
+  float: right;
+  background-color: #EEEEEE;
+  height: 60px;
+  width: 130px;
+  margin: auto;
+  text-align: center;
+  line-height: 1;
+  font-size: 25px;
+  opacity: .8;
+  color: #173e43;
+  border-color: lightgray;
+}
+.compose-button:hover {
+  color: black;
+  opacity: 1;
+}
+.new-tweet {
+  border: solid;
+  border-color: #ffcc33;
+  border-width: 1px;
+  margin: auto;*/
+  position: relative;
+  width: 350px;
+  height: 180px;
+  border-radius: 10px;
+  padding: 1px;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+.compose-header {
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+
+}
+.text-for-tweets {
+  padding-top: 10px;
+  width: 300px;
+}
+.tweet-box{
+  float:left;
+}
+.counter {
+  float:right;
+}
+/*-----------------------------------------------*/
+
+.posted-tweet {
+  border: 0.5px;
+  border-style: solid;
+  border-color: #1b4246;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  margin: auto;
+  height: 180px;
+  opacity: .6;
+  width: 350px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.posted-tweet-header {
+  text-align: left;
+  margin: auto;
+  padding-top: 10px;
+  padding-left: 8px;
+  background-color:#eee;  
+  border-color: #eee;
+  width: auto;
+  height: 60px;
+  border-radius: 10px 10px 0px 0px;
+  padding-right: 5px;
+}
+.posted-tweet-name {
+  float: left;
+  line-height: 10%;
+  margin-left: 10px;
+  margin-top: 10px;
+
+}
+.posted-tweet-avatar {
+  float: left;
+  width: 11%;
+  height: auto;
+  border-radius: 10px
+}
+.posted-twitter-handle {
+  float: right;
+  margin: 8px;
+  color: #AEAEAE;
+}
+.posted-content{
+  height: 80px;
+  text-align: left;
+  margin: 10px;
+  line-height: 200%;
+  margin-bottom: 0;
+}
+.posted-tweet-footer{
+  height: 20%;
+  padding-left: 5px;
+  padding-top: 5px;
+
+}
+.posted-tweet-timestamp {
+  float: left;
+  font-size: 80%;
+}
+.hr-tweet {
+  margin: 0;
+  color: #AEAEAE
+}
+.posted-tweet:hover {
+  opacity: 1  
+}
+.fa {
+  visibility: hidden;
+  float:right;
+}
+/*will have article.posted-tweet-container:hover .fa */
+.posted-tweet:hover .fa {
+   visibility: visible;
+ }
