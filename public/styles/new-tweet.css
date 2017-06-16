@@ -8,12 +8,12 @@
   height: 60px;
   width: 130px;
   margin: auto;
-  text-align: center;
   line-height: 1;
-  font-size: 25px;
   opacity: .8;
   color: #173e43;
   border-color: lightgray;
+  font-size: 20px;
+  text-align: right;
 }
 .compose-button:hover {
   color: black;
