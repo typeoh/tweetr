@@ -18,7 +18,7 @@ module.exports = function(DataHelpers) {
       }
     });
   });
-//post route that creates a new tweet on tweetr homepage
+//post route that posts a new tweet on tweetr homepage
   tweetsRoutes.post("/", function(req, res) {
     if (!req.body.text) {
       res.status(400).json({ error: 'invalid request: no data in POST body'});
@@ -42,7 +42,7 @@ module.exports = function(DataHelpers) {
       }
     });
   });
-  
+
   return tweetsRoutes;
 
 }

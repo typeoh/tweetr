@@ -6,9 +6,8 @@ $( document ).ready(function() {
     if(remaining < 0) {
       console.log(remaining);
       $counter.css('color', 'red');
-    }else {
+    } else {
       $counter.css('color', 'black');
     }
   });
 });
-

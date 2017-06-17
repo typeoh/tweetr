@@ -55,7 +55,7 @@ function getTweets() {
     event.preventDefault();
     var textArea = $(this).find('.text-for-tweets').val();
     var formInput = $(this).serialize();
-    if(textArea === ""){
+    if(textArea.length === 0){
       return alert('Nobody wants to see an empty tweet!')
     } else 
       if(textArea.length > 140) {
@@ -67,14 +67,16 @@ function getTweets() {
         data: formInput
       }).done(function(data){
         getTweets();
+        $('.counter').text(140);    
       });
     }  
   });
 //hide compose box 
   $('.new-tweet').hide(); 
-//show compose box on click of compose button 
+//show compose box on click of compose button, and focuses on text box
   $('.compose-button').on('click', function(event) {
-    $('.new-tweet').slideToggle();
+    $('.new-tweet').slideToggle(500);
     $('.text-for-tweets').focus();
+    $('.text-for-tweets').val('');
   });
 });

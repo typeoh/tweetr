@@ -14,6 +14,7 @@ navigation bar styling
     font-size: 200%;
     line-height: 80px;
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 #nav-bar .logo{
     height: auto;
@@ -26,3 +27,11 @@ navigation bar styling
     height: 60px;
     float: left;
     }
+#nav-bar .compose-button {
+    line-height: 1.8;
+    padding-right: 10px;
+}
+#nav-bar .compose-button-logo {
+    height: 35px;
+    float: left;
+}
