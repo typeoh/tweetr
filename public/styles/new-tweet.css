@@ -1,3 +1,6 @@
+
+/*Compose Box Style*/
+/*----------------------------------------------------*/
 .container{
   height: 10000px;
 }
@@ -49,6 +52,7 @@
 .counter {
   float:right;
 }
+/*Tweet Box Style*/
 /*-----------------------------------------------*/
 
 .posted-tweet {
@@ -125,7 +129,9 @@
   float:right;
   margin: 1px;
 }
-/*will have article.posted-tweet-container:hover .fa */
+.fa fa-heart-o:hover {
+  
+}
 .posted-tweet:hover .fa {
    visibility: visible;
  }
