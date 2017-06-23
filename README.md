@@ -5,6 +5,14 @@ Tweeter is a simple, single-page Twitter clone.
 It allows users to write tweets, post them to the homepage, and loads old Tweets! 
 
 # Final Product
+!["Screenshot of the tweetr home page"]
+https://github.com/typeoh/tweetr/blob/master/docs/tweeterhome.png?raw=true
+
+!["Screenshot of hover function on tweet"]https://github.com/typeoh/tweetr/blob/master/docs/hover-icon.png?raw=true
+
+!["Screenshot of too many words entered into tweet compose box"]https://github.com/typeoh/tweetr/blob/master/docs/too-many-words.png?raw=true
+
+
 
 # Dependencies
 
